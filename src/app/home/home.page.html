@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Phone Auth Example
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-button (click)="this.signInPhone()">Sign In</ion-button>
+  <form [formGroup]="confirm">
+    <ion-item>
+      <ion-label position="stacked">Please enter the verification code sent to your phone:</ion-label>
+      <ion-input type="text" formControlName="code"></ion-input>
+    </ion-item>
+  </form>
+  <ion-button (click)="this.verify(this.confirm.controls['code'].value)">Verify</ion-button>
+
+</ion-content>

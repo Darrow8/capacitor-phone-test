@@ -1,0 +1,15 @@
+{
+	"appId": "com.pmpkin.darrow",
+	"appName": "auth-test",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"CapacitorFirebaseAuth": {
+			"providers": [
+				"phone"
+			],
+			"languageCode": "en",
+			"nativeAuth": false
+		}
+	}
+}
