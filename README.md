@@ -12,11 +12,23 @@ Before you start, it is recommended that you are experienced with ionic, capacit
 
 Make sure you replace the GoogleServices-Info.plist in the ios project and add your firebaseConfig specs in the environment folder
 
+![ios googleservices connection](https://github.com/Darrow8/capacitor-phone-test/blob/main/repo-images/Screen%20Shot%202021-08-10%20at%2011.19.47%20PM.png)
+![web environment connection](https://github.com/Darrow8/capacitor-phone-test/blob/main/repo-images/Screen%20Shot%202021-08-10%20at%2011.35.28%20PM.png)
+
+
 2. Follow this tutorial to sync your APN in firebase https://stackoverflow.com/questions/45091583/invalid-token-when-trying-to-authenticate-phone-number-using-firebase
+
+It should look like this at the end: 
+
+![APN Connection](https://github.com/Darrow8/capacitor-phone-test/blob/main/repo-images/Screen%20Shot%202021-08-10%20at%2011.21.53%20PM.png)
+
 
 3. Run `npm install`, then run `ios cap sync`
 
 4. Navigate to your the Xcode .workspace project in ios/App/App.workspace and setup your signing certificate.
+
+![provisional profile setup](https://github.com/Darrow8/capacitor-phone-test/blob/main/repo-images/Screen%20Shot%202021-08-10%20at%2011.08.14%20PM.png)
+
 
 5. Connect an iphone to your computer and run the Xcode project on an Iphone
 
