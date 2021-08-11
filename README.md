@@ -20,14 +20,15 @@ It should look like this at the end:
 
 <img src="https://github.com/Darrow8/capacitor-phone-test/blob/main/repo-images/Screen%20Shot%202021-08-10%20at%2011.21.53%20PM.png" alt="APN" width="800"/>
 
+3. On line 17 in home.page.ts make sure you set phoneNum to the phone number of your phone
 
-3. Run `npm install`, then run `ios cap sync`
+4. Run `npm install`, then run `ios cap sync`
 
-4. Navigate to your the Xcode .workspace project in ios/App/App.workspace and setup your signing certificate.
+5. Navigate to your the Xcode .workspace project in ios/App/App.workspace and setup your signing certificate.
 
 
 <img src="https://github.com/Darrow8/capacitor-phone-test/blob/main/repo-images/Screen%20Shot%202021-08-10%20at%2011.08.14%20PM.png" alt="provisional profile setup" width="800"/>
 
-5. Connect an iphone to your computer and run the Xcode project on an Iphone
+6. Connect an iphone to your computer and run the Xcode project on an Iphone
 
 * If your run into a problem, make sure to let me know in the issues section!
